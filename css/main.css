@@ -1,0 +1,1369 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home {
+  background-image: url(../img/fundo.png);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home .container {
+  text-align: center;
+  color: white;
+  padding: 30px 100px 15px 100px;
+}
+
+.home .container .imgA {
+  height: 400px;
+  margin-top: -60px;
+  margin-bottom: -29px;
+}
+
+.home .container h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.home .container .pHome {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.home .container .button {
+  text-align: center;
+  background-color: #3b69cc;
+  margin: 10px 540px 0px 540px;
+  padding: 10px;
+  border: 1px solid #3b69cc;
+  border-radius: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: background 2s;
+  transition: background 2s;
+}
+
+.home .container .button:hover {
+  background-color: rgba(72, 120, 224, 0.363);
+  border: 1px solid #3b69cc;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.home .container .button .linkButton {
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 1527px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    height: 400px;
+    margin-top: -60px;
+    margin-bottom: -29px;
+  }
+  .home .container h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 300px 10px 300px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1167px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    height: 400px;
+    margin-top: -115px;
+    margin-bottom: -85px;
+  }
+  .home .container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 300px 10px 300px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1040px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    height: 400px;
+    margin-top: -115px;
+    margin-bottom: -85px;
+  }
+  .home .container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 190px 10px 190px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 821px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    height: 400px;
+    margin-top: -115px;
+    margin-bottom: -85px;
+  }
+  .home .container h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 110px 10px 110px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 661px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    height: 300px;
+    margin-top: -115px;
+    margin-bottom: -85px;
+  }
+  .home .container h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 477px) {
+  .home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home .container {
+    text-align: center;
+    color: white;
+    padding: 30px 100px 15px 100px;
+  }
+  .home .container .imgA {
+    display: none;
+  }
+  .home .container h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .home .container .pHome {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .home .container .button {
+    text-align: center;
+    background-color: #3b69cc;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+  }
+  .home .container .button:hover {
+    background-color: rgba(72, 120, 224, 0.363);
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .home .container .button .linkButton {
+    color: white;
+    padding: 15px 8px;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+.about {
+  background-color: #f6f1f1;
+}
+
+.about .containerTwo {
+  padding: 30px 100px 15px 100px;
+}
+
+.about .containerTwo h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  margin-top: 20px;
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+}
+
+.about .containerTwo .vantagens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about .containerTwo .vantagens img {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.about .containerTwo .vantagens .row1 {
+  padding: 90px;
+}
+
+.about .containerTwo .vantagens .row1 p {
+  margin-bottom: 40px;
+}
+
+.about .containerTwo .vantagens .row {
+  margin-top: 85px;
+}
+
+.about .containerTwo .vantagens .row p {
+  margin-bottom: 40px;
+  padding-right: 50px;
+}
+
+.about .containerTwo .button {
+  background-color: rgba(72, 120, 224, 0.363);
+  margin: -52px 399px 70px 681px;
+  padding: 10px;
+  border: 1px solid #3b69cc;
+  border-radius: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: background 2s;
+  transition: background 2s;
+  position: relative;
+  text-align: center;
+}
+
+.about .containerTwo .button:hover {
+  background-color: #3b69cc;
+  border: 1px solid #3b69cc;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+.about .containerTwo .button .linkButton {
+  color: black;
+  padding: 15px 27px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.about .containerTwo .button .linkButton:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+@media (max-width: 1433px) {
+  .about {
+    background-color: #f6f1f1;
+  }
+  .about .containerTwo {
+    padding: 30px 100px 15px 100px;
+  }
+  .about .containerTwo h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+  }
+  .about .containerTwo .vantagens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .containerTwo .vantagens img {
+    display: none;
+  }
+  .about .containerTwo .vantagens .row1 {
+    padding: 90px;
+    margin-left: 86px;
+  }
+  .about .containerTwo .vantagens .row1 p {
+    margin-bottom: 47px;
+  }
+  .about .containerTwo .vantagens .row {
+    margin-top: 89px;
+  }
+  .about .containerTwo .vantagens .row p {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
+  .about .containerTwo .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: -52px 250px 70px 250px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+    position: relative;
+    text-align: center;
+  }
+  .about .containerTwo .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .about .containerTwo .button .linkButton {
+    color: black;
+    padding: 15px 27px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .about .containerTwo .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 1225px) {
+  .about {
+    background-color: #f6f1f1;
+  }
+  .about .containerTwo {
+    padding: 30px 100px 15px 100px;
+  }
+  .about .containerTwo h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+  }
+  .about .containerTwo .vantagens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .containerTwo .vantagens img {
+    display: none;
+  }
+  .about .containerTwo .vantagens .row1 {
+    padding: 90px;
+    margin-left: 86px;
+  }
+  .about .containerTwo .vantagens .row1 p {
+    margin-bottom: 47px;
+  }
+  .about .containerTwo .vantagens .row {
+    margin-top: 89px;
+  }
+  .about .containerTwo .vantagens .row p {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
+  .about .containerTwo .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: -52px 250px 70px 250px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+    position: relative;
+    text-align: center;
+  }
+  .about .containerTwo .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .about .containerTwo .button .linkButton {
+    color: black;
+    padding: 15px 27px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .about .containerTwo .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 850px) {
+  .about {
+    background-color: #f6f1f1;
+  }
+  .about .containerTwo {
+    padding: 30px 100px 15px 100px;
+  }
+  .about .containerTwo h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+  }
+  .about .containerTwo .vantagens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .containerTwo .vantagens img {
+    display: none;
+  }
+  .about .containerTwo .vantagens .row1 {
+    margin-left: -9px;
+  }
+  .about .containerTwo .vantagens .row1 p {
+    margin-bottom: 47px;
+  }
+  .about .containerTwo .vantagens .row p {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
+  .about .containerTwo .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: -2px 0px 68px 48px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+    position: relative;
+    text-align: center;
+  }
+  .about .containerTwo .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .about .containerTwo .button .linkButton {
+    color: black;
+    padding: 15px 27px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .about .containerTwo .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 584px) {
+  .about {
+    background-color: #f6f1f1;
+  }
+  .about .containerTwo {
+    padding: 30px 100px 15px 100px;
+  }
+  .about .containerTwo h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+  }
+  .about .containerTwo .vantagens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .containerTwo .vantagens img {
+    display: none;
+  }
+  .about .containerTwo .vantagens .row1 {
+    padding: 0px;
+    margin-left: 30px;
+  }
+  .about .containerTwo .vantagens .row1 p {
+    margin-bottom: 47px;
+  }
+  .about .containerTwo .vantagens .row {
+    margin-top: 0;
+    margin-left: 67px;
+  }
+  .about .containerTwo .vantagens .row p {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
+  .about .containerTwo .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: -2px 0px 68px 48px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+    position: relative;
+    text-align: center;
+  }
+  .about .containerTwo .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .about .containerTwo .button .linkButton {
+    color: black;
+    padding: 15px 27px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .about .containerTwo .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 450px) {
+  .about {
+    background-color: #f6f1f1;
+  }
+  .about .containerTwo {
+    padding: 30px 100px 15px 100px;
+  }
+  .about .containerTwo h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+  }
+  .about .containerTwo .vantagens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .containerTwo .vantagens img {
+    display: none;
+  }
+  .about .containerTwo .vantagens .row1 {
+    font-size: 16px;
+    padding: 0px;
+    margin-left: 30px;
+  }
+  .about .containerTwo .vantagens .row1 p {
+    margin-bottom: 47px;
+  }
+  .about .containerTwo .vantagens .row {
+    font-size: 16px;
+    margin-top: 0;
+    margin-left: 67px;
+  }
+  .about .containerTwo .vantagens .row p {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
+  .about .containerTwo .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: -2px 0px 68px 0px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+    position: relative;
+    text-align: center;
+  }
+  .about .containerTwo .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .about .containerTwo .button .linkButton {
+    color: black;
+    padding: 15px 3px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .about .containerTwo .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+.plans {
+  background-image: url(../img/planoFundo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.plans .containerFive h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.plans .containerFive .boxPlanos {
+  color: #ffffff;
+  border-style: solid;
+  border-color: #5580de;
+  padding-bottom: 22px;
+  background-color: #0000006b;
+  border-radius: 8px;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-top: 65px;
+  text-align: center;
+  -webkit-transition: 2s -webkit-box-shadow;
+  transition: 2s -webkit-box-shadow;
+  transition: 2s box-shadow;
+  transition: 2s box-shadow, 2s -webkit-box-shadow;
+}
+
+.plans .containerFive .boxPlanos:hover {
+  -webkit-box-shadow: 2px -2px 25px #3b69cc;
+          box-shadow: 2px -2px 25px #3b69cc;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.plans .containerFive .boxPlanos .planos {
+  padding-top: 20px;
+}
+
+.plans .containerFive .boxPlanos .planos h2 {
+  font-size: 28px;
+  margin-top: 1px;
+  font-weight: 600;
+}
+
+.plans .containerFive .boxPlanos .planos img {
+  height: 260px;
+  margin-top: 13px;
+}
+
+.plans .containerFive .boxPlanos .planos .price {
+  background-color: #312b2b;
+  height: 102px;
+  margin-top: -8px;
+}
+
+.plans .containerFive .boxPlanos .planos .price span {
+  font-size: 70px;
+}
+
+.plans .containerFive .boxPlanos .planos .price .pMonth {
+  font-size: 26px;
+}
+
+.plans .containerFive .boxPlanos .planos p {
+  margin-top: 10px;
+}
+
+.plans .containerFive .boxPlanos .button {
+  background-color: rgba(72, 120, 224, 0.363);
+  margin: 31px 100px 4px 100px;
+  padding: 10px;
+  border: 1px solid #3b69cc;
+  border-radius: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 2s;
+  transition: -webkit-box-shadow 2s;
+  transition: box-shadow 2s;
+  transition: box-shadow 2s, -webkit-box-shadow 2s;
+}
+
+.plans .containerFive .boxPlanos .button:hover {
+  background-color: #3b69cc;
+  border: 1px solid #3b69cc;
+  -webkit-box-shadow: 0px 0px 14px #3b69cc;
+          box-shadow: 0px 0px 14px #3b69cc;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+.plans .containerFive .boxPlanos .button .linkButton {
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 15px 146px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.plans .containerFive .boxPlanos .button .linkButton:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+@media (max-width: 709px) {
+  .plans {
+    background-image: url(../img/planoFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+  }
+  .plans .containerFive h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #5580de;
+    padding-bottom: 22px;
+    background-color: #0000006b;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 65px;
+    text-align: center;
+    -webkit-transition: 2s -webkit-box-shadow;
+    transition: 2s -webkit-box-shadow;
+    transition: 2s box-shadow;
+    transition: 2s box-shadow, 2s -webkit-box-shadow;
+  }
+  .plans .containerFive .boxPlanos:hover {
+    -webkit-box-shadow: 2px -2px 25px #3b69cc;
+            box-shadow: 2px -2px 25px #3b69cc;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .planos {
+    padding-top: 20px;
+  }
+  .plans .containerFive .boxPlanos .planos h2 {
+    font-size: 28px;
+    margin-top: 1px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos .planos img {
+    height: 230px;
+    margin-top: 13px;
+  }
+  .plans .containerFive .boxPlanos .planos .price {
+    background-color: #312b2b;
+    height: 102px;
+    margin-top: -8px;
+  }
+  .plans .containerFive .boxPlanos .planos .price span {
+    font-size: 70px;
+  }
+  .plans .containerFive .boxPlanos .planos .price .pMonth {
+    font-size: 26px;
+  }
+  .plans .containerFive .boxPlanos .planos p {
+    margin-top: 10px;
+  }
+  .plans .containerFive .boxPlanos .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: 31px 60px 4px 60px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 2s;
+    transition: -webkit-box-shadow 2s;
+    transition: box-shadow 2s;
+    transition: box-shadow 2s, -webkit-box-shadow 2s;
+  }
+  .plans .containerFive .boxPlanos .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-box-shadow: 0px 0px 14px #3b69cc;
+            box-shadow: 0px 0px 14px #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 70px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 621px) {
+  .plans {
+    background-image: url(../img/planoFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+  }
+  .plans .containerFive h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #5580de;
+    padding-bottom: 22px;
+    background-color: #0000006b;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 65px;
+    text-align: center;
+    -webkit-transition: 2s -webkit-box-shadow;
+    transition: 2s -webkit-box-shadow;
+    transition: 2s box-shadow;
+    transition: 2s box-shadow, 2s -webkit-box-shadow;
+  }
+  .plans .containerFive .boxPlanos:hover {
+    -webkit-box-shadow: 2px -2px 25px #3b69cc;
+            box-shadow: 2px -2px 25px #3b69cc;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .planos {
+    padding-top: 20px;
+  }
+  .plans .containerFive .boxPlanos .planos h2 {
+    font-size: 28px;
+    margin-top: 1px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos .planos img {
+    height: 168px;
+    margin-top: 13px;
+  }
+  .plans .containerFive .boxPlanos .planos .price {
+    background-color: #312b2b;
+    height: 102px;
+    margin-top: -8px;
+  }
+  .plans .containerFive .boxPlanos .planos .price span {
+    font-size: 70px;
+  }
+  .plans .containerFive .boxPlanos .planos .price .pMonth {
+    font-size: 26px;
+  }
+  .plans .containerFive .boxPlanos .planos p {
+    margin-top: 10px;
+  }
+  .plans .containerFive .boxPlanos .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: 31px 60px 4px 60px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 2s;
+    transition: -webkit-box-shadow 2s;
+    transition: box-shadow 2s;
+    transition: box-shadow 2s, -webkit-box-shadow 2s;
+  }
+  .plans .containerFive .boxPlanos .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-box-shadow: 0px 0px 14px #3b69cc;
+            box-shadow: 0px 0px 14px #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 70px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+@media (max-width: 463px) {
+  .plans {
+    background-image: url(../img/planoFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+  }
+  .plans .containerFive h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos {
+    color: #ffffff;
+    border-style: solid;
+    border-color: #5580de;
+    padding-bottom: 22px;
+    background-color: #0000006b;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 65px;
+    text-align: center;
+    -webkit-transition: 2s -webkit-box-shadow;
+    transition: 2s -webkit-box-shadow;
+    transition: 2s box-shadow;
+    transition: 2s box-shadow, 2s -webkit-box-shadow;
+  }
+  .plans .containerFive .boxPlanos:hover {
+    -webkit-box-shadow: 2px -2px 25px #3b69cc;
+            box-shadow: 2px -2px 25px #3b69cc;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .planos {
+    padding-top: 20px;
+  }
+  .plans .containerFive .boxPlanos .planos h2 {
+    font-size: 28px;
+    margin-top: 1px;
+    font-weight: 600;
+  }
+  .plans .containerFive .boxPlanos .planos img {
+    height: 130px;
+    margin-top: 13px;
+    margin-left: 8px;
+  }
+  .plans .containerFive .boxPlanos .planos .price {
+    background-color: #312b2b;
+    height: 102px;
+    margin-top: -8px;
+  }
+  .plans .containerFive .boxPlanos .planos .price span {
+    font-size: 70px;
+  }
+  .plans .containerFive .boxPlanos .planos .price .pMonth {
+    font-size: 26px;
+  }
+  .plans .containerFive .boxPlanos .planos p {
+    margin-top: 10px;
+  }
+  .plans .containerFive .boxPlanos .button {
+    background-color: rgba(72, 120, 224, 0.363);
+    margin: 31px 5px 4px 5px;
+    padding: 10px;
+    border: 1px solid #3b69cc;
+    border-radius: 50px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 2s;
+    transition: -webkit-box-shadow 2s;
+    transition: box-shadow 2s;
+    transition: box-shadow 2s, -webkit-box-shadow 2s;
+  }
+  .plans .containerFive .boxPlanos .button:hover {
+    background-color: #3b69cc;
+    border: 1px solid #3b69cc;
+    -webkit-box-shadow: 0px 0px 14px #3b69cc;
+            box-shadow: 0px 0px 14px #3b69cc;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 45px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .plans .containerFive .boxPlanos .button .linkButton:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: white;
+  }
+}
+
+.footer {
+  background-color: #191919;
+  color: white;
+  font-size: 15px;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer ul li {
+  margin-top: 10px;
+  margin-right: 16px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.footer ul li a i {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

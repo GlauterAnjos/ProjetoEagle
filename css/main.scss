@@ -1,0 +1,1459 @@
+@import 'base';
+@import 'variables';
+@import 'animation';
+@import 'mixins';
+@import 'extend';
+
+
+.home {
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container {
+        text-align: center;
+        color: white;
+        padding: 30px 100px 15px 100px;
+
+        .imgA {
+            height: 400px;
+            margin-top: -60px;
+            margin-bottom: -29px;
+        }
+
+        h1 {
+            font-size: 45px;
+            font-weight: 500;
+            margin-bottom: 14px;
+            
+            
+        }
+        
+        .pHome {
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-weight: 300;
+            margin-bottom: 30px;
+         }
+
+        
+            
+         .button {
+            text-align: center;
+            background-color: rgb(59, 105, 204);
+            margin: 10px 540px 0px 540px;
+            padding: 10px;
+            border: 1px solid  rgb(59, 105, 204);
+            border-radius: 50px ;
+            user-select: none;
+            cursor: pointer;
+            transition: background 2s;
+                &:hover {
+                    background-color: rgba(72, 120, 224, 0.363);
+                    border: 1px solid  rgb(59, 105, 204);
+                    transition: 1s;
+                }
+
+                .linkButton {
+                    color: white;
+                    padding: 15px 32px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+        
+             }           
+    }    
+}
+
+@media (max-width: 1527px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                height: 400px;
+                margin-top: -60px;
+                margin-bottom: -29px;
+            }
+    
+            h1 {
+                font-size: 45px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 18px;
+                letter-spacing: 2px;
+                font-weight: 300;
+                margin-bottom: 30px;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 300px 10px 300px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 32px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+@media (max-width: 1167px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                height: 400px;
+                margin-top: -115px;
+                margin-bottom: -85px;
+            }
+    
+            h1 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 16px;
+                letter-spacing: 2px;
+                font-weight: 300;
+                margin-bottom: 30px;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 300px 10px 300px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 32px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+@media (max-width: 1040px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                height: 400px;
+                margin-top: -115px;
+                margin-bottom: -85px;
+            }
+    
+            h1 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 16px;
+                letter-spacing: 2px;
+                font-weight: 300;
+                margin-bottom: 30px;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 190px 10px 190px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 32px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+@media (max-width: 821px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                height: 400px;
+                margin-top: -115px;
+                margin-bottom: -85px;
+            }
+    
+            h1 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 16px;
+                letter-spacing: 2px;
+                font-weight: 300;
+                margin-bottom: 30px;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 110px 10px 110px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 32px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+
+
+
+@media (max-width: 661px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                height: 300px;
+                margin-top: -115px;
+                margin-bottom: -85px;
+            }
+    
+            h1 {
+                font-size: 35px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: 300;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 10px 10px 10px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 32px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+@media (max-width: 477px) { 
+    .home{
+        background-image: url(../img/fundo.png);
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .container {
+            text-align: center;
+            color: white;
+            padding: 30px 100px 15px 100px;
+    
+            .imgA {
+                display: none;
+            }
+    
+            h1 {
+                font-size: 35px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                
+                
+            }
+            
+            .pHome {
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: 300;
+             }
+    
+            
+                
+             .button {
+                text-align: center;
+                background-color: rgb(59, 105, 204);
+                margin: 10px 10px 10px 10px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                    &:hover {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                    }
+    
+                    .linkButton {
+                        color: white;
+                        padding: 15px 8px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+            
+                 }           
+        }    
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+    background-color: #f6f1f1;
+    .containerTwo {
+        padding: 30px 100px 15px 100px;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 14px;
+            margin-top: 20px;
+            padding: 0px 40px 0px 40px;
+            text-align: center;
+        }
+
+        .vantagens {
+            display: flex;
+            font-size: 20px;
+            font-weight: 300;
+
+            img {
+                margin-top: 50px;
+                height: 600px;
+
+            }
+            .row1 {
+                padding: 90px; 
+
+                p {
+                    margin-bottom: 40px;
+                }
+            }
+            .row {
+                margin-top: 85px;
+
+                p {
+                    margin-bottom: 40px;
+                    padding-right: 50px;
+                }
+            }
+
+            
+        }
+
+        .button {
+            background-color: rgba(72, 120, 224, 0.363);
+            margin: -52px 399px 70px 681px;
+            padding: 10px;
+            border: 1px solid  rgb(59, 105, 204);
+            border-radius: 50px ;
+            user-select: none;
+            cursor: pointer;
+            transition: background 2s;
+            position: relative;
+            text-align: center;
+                &:hover {
+                    background-color: rgb(59, 105, 204);
+                    border: 1px solid  rgb(59, 105, 204);
+                    transition: 1s;
+                    color: white;
+                }
+
+                .linkButton {
+                    color: rgb(0, 0, 0);
+                    padding: 15px 27px;
+                    text-decoration: none;
+                    text-align: center;
+                    transition: 2s;
+
+                    &:hover {
+                        transition: 1s;
+                        color: white;
+                    }
+                }
+        
+             }           
+
+
+    }
+}
+
+
+
+@media (max-width: 1433px) {
+    .about {
+        background-color: #f6f1f1;
+        .containerTwo {
+            padding: 30px 100px 15px 100px;
+    
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                margin-top: 20px;
+                padding: 0px 40px 0px 40px;
+                text-align: center;
+            }
+    
+            .vantagens {
+                display: flex;
+                font-size: 20px;
+                font-weight: 300;
+                justify-content: center;
+    
+                img {
+                    display: none;
+    
+                }
+                .row1 {
+                    padding: 90px;
+                    margin-left: 86px;
+    
+                    p {
+                        margin-bottom: 47px;
+                    }
+                }
+                .row {
+                    margin-top: 89px;
+                    p {
+                        margin-bottom: 40px;
+                        padding-right: 50px;
+                    }
+                }
+    
+                
+            }
+    
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: -52px 250px 70px 250px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                position: relative;
+                text-align: center;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(0, 0, 0);
+                        padding: 15px 27px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }           
+    
+    
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1225px) {
+    .about {
+        background-color: #f6f1f1;
+        .containerTwo {
+            padding: 30px 100px 15px 100px;
+    
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                margin-top: 20px;
+                padding: 0px 40px 0px 40px;
+                text-align: center;
+            }
+    
+            .vantagens {
+                display: flex;
+                font-size: 20px;
+                font-weight: 300;
+                justify-content: center;
+    
+                img {
+                    display: none;
+    
+                }
+                .row1 {
+                    padding: 90px;
+                    margin-left: 86px;
+    
+                    p {
+                        margin-bottom: 47px;
+                    }
+                }
+                .row {
+                    margin-top: 89px;
+                    p {
+                        margin-bottom: 40px;
+                        padding-right: 50px;
+                    }
+                }
+    
+                
+            }
+    
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: -52px 250px 70px 250px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                position: relative;
+                text-align: center;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(0, 0, 0);
+                        padding: 15px 27px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }           
+    
+    
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .about {
+        background-color: #f6f1f1;
+        .containerTwo {
+            padding: 30px 100px 15px 100px;
+    
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                margin-top: 20px;
+                padding: 0px 40px 0px 40px;
+                text-align: center;
+            }
+    
+            .vantagens {
+                display: flex;
+                font-size: 20px;
+                font-weight: 300;
+                justify-content: center;
+    
+                img {
+                    display: none;
+    
+                }
+                .row1 {
+                    
+                    margin-left: -9px;
+    
+                    p {
+                        margin-bottom: 47px;
+                    }
+                }
+                .row {
+
+                    p {
+                        margin-bottom: 40px;
+                        padding-right: 50px;
+                    }
+                }
+    
+                
+            }
+    
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: -2px 0px 68px 48px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                position: relative;
+                text-align: center;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(0, 0, 0);
+                        padding: 15px 27px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }           
+    
+    
+        }
+    }
+}
+
+
+
+@media (max-width: 584px) {
+    .about {
+        background-color: #f6f1f1;
+        .containerTwo {
+            padding: 30px 100px 15px 100px;
+    
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                margin-top: 20px;
+                text-align: center;
+                padding: 0px;
+            }
+    
+            .vantagens {
+                display: flex;
+                font-size: 20px;
+                font-weight: 300;
+                justify-content: center;
+    
+                img {
+                    display: none;
+    
+                }
+                .row1 {
+                    padding: 0px;
+                    margin-left: 30px;
+    
+                    p {
+                        margin-bottom: 47px;
+                    }
+                }
+                .row {
+                    margin-top: 0;
+                    margin-left: 67px;
+                    p {
+                        margin-bottom: 40px;
+                        padding-right: 50px;
+                    }
+                }
+    
+                
+            }
+    
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: -2px 0px 68px 48px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                position: relative;
+                text-align: center;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(0, 0, 0);
+                        padding: 15px 27px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }           
+    
+    
+        }
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .about {
+        background-color: #f6f1f1;
+        .containerTwo {
+            padding: 30px 100px 15px 100px;
+    
+            h2 {
+                font-size: 38px;
+                font-weight: 500;
+                margin-bottom: 14px;
+                margin-top: 20px;
+                text-align: center;
+                padding: 0;
+            }
+    
+            .vantagens {
+                display: flex;
+                font-size: 20px;
+                font-weight: 300;
+                justify-content: center;
+    
+                img {
+                    display: none;
+    
+                }
+                .row1 {
+                    font-size: 16px;
+                    padding: 0px;
+                    margin-left: 30px;
+    
+                    p {
+                        margin-bottom: 47px;
+                    }
+                }
+                .row {
+                    font-size: 16px;
+                    margin-top: 0;
+                    margin-left: 67px;
+                    p {
+                        margin-bottom: 40px;
+                        padding-right: 50px;
+                    }
+                }
+    
+                
+            }
+    
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: -2px 0px 68px 0px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition: background 2s;
+                position: relative;
+                text-align: center;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(0, 0, 0);
+                        padding: 15px 3px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }           
+    
+    
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plans {
+    background-image: url(../img/planoFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    .containerFive {
+        h2 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        
+        .boxPlanos {
+            color: #ffffff;
+            border-style: solid;
+            border-color: #5580de;
+            padding-bottom: 22px;
+            background-color: #0000006b;
+            border-radius: 8px;
+            max-width: 700px;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            margin-top: 65px;
+            text-align: center;
+            transition: 2s box-shadow;
+
+            &:hover {
+                box-shadow: 2px -2px 25px #3b69cc;
+                transition: 2s;
+    
+            }
+            .planos {
+                padding-top: 20px;
+                
+                h2 {
+                    font-size: 28px;
+                    margin-top: 1px;
+                    font-weight: 600;
+                }
+
+                img {
+                    height: 260px;
+                    margin-top: 13px;
+                }
+                .price {
+                    background-color: #312b2b;
+                    height: 102px;
+                    margin-top: -8px;
+
+                    span {
+                        font-size: 70px;
+                    }
+
+                    .pMonth {
+                        font-size: 26px;
+                    }
+                }
+                
+                p {
+                    margin-top: 10px;
+                }
+            }
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: 31px 100px 4px 100px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition:  box-shadow 2s;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        box-shadow: 0px 0px 14px #3b69cc;
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(255, 255, 255);
+                        font-weight: 500;
+                        font-size: 17px;
+                        padding: 15px 146px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }    
+        }
+       
+    }
+}
+
+@media (max-width: 709px) {
+    
+.plans {
+    background-image: url(../img/planoFundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    .containerFive {
+        h2 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        
+        .boxPlanos {
+            color: #ffffff;
+            border-style: solid;
+            border-color: #5580de;
+            padding-bottom: 22px;
+            background-color: #0000006b;
+            border-radius: 8px;
+            max-width: 700px;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            margin-top: 65px;
+            text-align: center;
+            transition: 2s box-shadow;
+
+            &:hover {
+                box-shadow: 2px -2px 25px #3b69cc;
+                transition: 2s;
+    
+            }
+            .planos {
+                padding-top: 20px;
+                
+                h2 {
+                    font-size: 28px;
+                    margin-top: 1px;
+                    font-weight: 600;
+                }
+
+                img {
+                    height: 230px;
+                    margin-top: 13px;
+                }
+                .price {
+                    background-color: #312b2b;
+                    height: 102px;
+                    margin-top: -8px;
+
+                    span {
+                        font-size: 70px;
+                    }
+
+                    .pMonth {
+                        font-size: 26px;
+                    }
+                }
+                
+                p {
+                    margin-top: 10px;
+                }
+            }
+            .button {
+                background-color: rgba(72, 120, 224, 0.363);
+                margin: 31px 60px 4px 60px;
+                padding: 10px;
+                border: 1px solid  rgb(59, 105, 204);
+                border-radius: 50px ;
+                user-select: none;
+                cursor: pointer;
+                transition:  box-shadow 2s;
+                    &:hover {
+                        background-color: rgb(59, 105, 204);
+                        border: 1px solid  rgb(59, 105, 204);
+                        box-shadow: 0px 0px 14px #3b69cc;
+                        transition: 1s;
+                        color: white;
+                    }
+    
+                    .linkButton {
+                        color: rgb(255, 255, 255);
+                        font-weight: 500;
+                        font-size: 17px;
+                        padding: 15px 70px;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: 2s;
+    
+                        &:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+            
+                 }    
+        }
+       
+    }
+}
+}
+
+
+@media (max-width: 621px) {
+    
+    .plans {
+        background-image: url(../img/planoFundo.png);
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        .containerFive {
+            h2 {
+                color: #ffffff;
+                text-align: center;
+                font-size: 50px;
+                font-weight: 600;
+            }
+            
+            .boxPlanos {
+                color: #ffffff;
+                border-style: solid;
+                border-color: #5580de;
+                padding-bottom: 22px;
+                background-color: #0000006b;
+                border-radius: 8px;
+                max-width: 700px;
+                margin-right: auto;
+                margin-left: auto;
+                position: relative;
+                margin-top: 65px;
+                text-align: center;
+                transition: 2s box-shadow;
+    
+                &:hover {
+                    box-shadow: 2px -2px 25px #3b69cc;
+                    transition: 2s;
+        
+                }
+                .planos {
+                    padding-top: 20px;
+                    
+                    h2 {
+                        font-size: 28px;
+                        margin-top: 1px;
+                        font-weight: 600;
+                    }
+    
+                    img {
+                        height: 168px;
+                        margin-top: 13px;
+                    }
+                    .price {
+                        background-color: #312b2b;
+                        height: 102px;
+                        margin-top: -8px;
+    
+                        span {
+                            font-size: 70px;
+                        }
+    
+                        .pMonth {
+                            font-size: 26px;
+                        }
+                    }
+                    
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+                .button {
+                    background-color: rgba(72, 120, 224, 0.363);
+                    margin: 31px 60px 4px 60px;
+                    padding: 10px;
+                    border: 1px solid  rgb(59, 105, 204);
+                    border-radius: 50px ;
+                    user-select: none;
+                    cursor: pointer;
+                    transition:  box-shadow 2s;
+                        &:hover {
+                            background-color: rgb(59, 105, 204);
+                            border: 1px solid  rgb(59, 105, 204);
+                            box-shadow: 0px 0px 14px #3b69cc;
+                            transition: 1s;
+                            color: white;
+                        }
+        
+                        .linkButton {
+                            color: rgb(255, 255, 255);
+                            font-weight: 500;
+                            font-size: 17px;
+                            padding: 15px 70px;
+                            text-decoration: none;
+                            text-align: center;
+                            transition: 2s;
+        
+                            &:hover {
+                                transition: 1s;
+                                color: white;
+                            }
+                        }
+                
+                     }    
+            }
+           
+        }
+    }
+    }
+
+
+    @media (max-width: 463px) {
+    
+        .plans {
+            background-image: url(../img/planoFundo.png);
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 100px 0;
+            .containerFive {
+                h2 {
+                    color: #ffffff;
+                    text-align: center;
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+                
+                .boxPlanos {
+                    color: #ffffff;
+                    border-style: solid;
+                    border-color: #5580de;
+                    padding-bottom: 22px;
+                    background-color: #0000006b;
+                    border-radius: 8px;
+                    max-width: 700px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    position: relative;
+                    margin-top: 65px;
+                    text-align: center;
+                    transition: 2s box-shadow;
+        
+                    &:hover {
+                        box-shadow: 2px -2px 25px #3b69cc;
+                        transition: 2s;
+            
+                    }
+                    .planos {
+                        padding-top: 20px;
+                        
+                        h2 {
+                            font-size: 28px;
+                            margin-top: 1px;
+                            font-weight: 600;
+                        }
+        
+                        img {
+                            height: 130px;
+                            margin-top: 13px;
+                            margin-left: 8px;
+                        }
+                        .price {
+                            background-color: #312b2b;
+                            height: 102px;
+                            margin-top: -8px;
+        
+                            span {
+                                font-size: 70px;
+                            }
+        
+                            .pMonth {
+                                font-size: 26px;
+                            }
+                        }
+                        
+                        p {
+                            margin-top: 10px;
+                        }
+                    }
+                    .button {
+                        background-color: rgba(72, 120, 224, 0.363);
+                        margin: 31px 5px 4px 5px;
+                        padding: 10px;
+                        border: 1px solid  rgb(59, 105, 204);
+                        border-radius: 50px ;
+                        user-select: none;
+                        cursor: pointer;
+                        transition:  box-shadow 2s;
+                            &:hover {
+                                background-color: rgb(59, 105, 204);
+                                border: 1px solid  rgb(59, 105, 204);
+                                box-shadow: 0px 0px 14px #3b69cc;
+                                transition: 1s;
+                                color: white;
+                            }
+            
+                            .linkButton {
+                                color: rgb(255, 255, 255);
+                                font-weight: 500;
+                                font-size: 17px;
+                                padding: 15px 45px;
+                                text-decoration: none;
+                                text-align: center;
+                                transition: 2s;
+            
+                                &:hover {
+                                    transition: 1s;
+                                    color: white;
+                                }
+                            }
+                    
+                         }    
+                }
+               
+            }
+        }
+        }
+    
+
+
+
+
+
+
+
+.footer {
+    background-color: #191919;
+    color: white;
+    font-size: 15px;
+    padding: 40px;
+    text-align: center;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin-top: 10px;
+            margin-right: 16px;
+            list-style: none;
+            text-decoration: none;
+
+            a {
+                text-decoration: none;
+
+                i {
+                    color: #ffffff;
+                    margin-left: 16px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+    
+
+    
